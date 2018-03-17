@@ -1,0 +1,1 @@
+Esse projeto foi feito por Gustavo Bergamo Mimim para aplicar o conhecimento adquirido no curso. Desenvolvido em um monitor 1360 x 768, podendo influenciar negativamente se vizualizado em uma resolução diferente, já que ainda não é responsivo.

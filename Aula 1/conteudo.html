@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Encoding da página (para permitir acento)-->
+	<meta charset="utf-8"/>
+	<!-- Titulo da pagina-->
+	<title> Segunda página </title>
+	
+	<!-- importar CSS-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<!-- CSS interno
+	<style type="text/css">
+		body{
+			background-color: black;
+		}
+		#container{
+			background-color: white;
+		}
+		.corVermelha{
+			color: red;
+		}
+		.tam20{
+			font-size: 20px;
+		}
+		h1{
+			color: darkorange;
+			text-align: center;
+			background-color: gray;
+		}
+	</style>-->
+	
+</head>
+
+<!-- style="backgroud-color: orange; -  CSS inline-->
+<!--<body style="background-color: yellow;">-->
+
+<body>
+	<div id="container"> <!-- id= identificação da divisão(nome)-->
+		<h1> Controle</h1>
+		<p class="corVermelha tam20"> Algumas coisas que veremos nesse curso: </p>
+		
+		<!-- ol - lista ordenada-->
+		<!-- ul - lista desordenada-->
+		<ol>
+			<!-- li = list item (item da lista)-->
+			<li class="tam20"> Como utilizar HTML; </li>
+			<li class="tam20"> Como adicionar estilo ao HTML; </li>
+			<li class="tam20"> Como manipular ações na tela; </li>
+			<!-- SubLista (lista dentro de outra lista)-->
+			<li> Sub Lista:
+				<ul>
+					<li> Sub item 1 </li>
+					<li> Sub item 2 </li>
+				</ul>
+			</li>
+		</ol>
+		
+		<!-- Tabela-->
+		<table border="1">
+			<!-- thead -  Table head-->
+			<thead>
+				<!-- tr - linha da tabela -->
+				<tr>
+					<th> Data </th>
+					<th> Conteúdo </th>
+					<th> Presença </th>
+				</tr>
+			</thead>
+			<!-- Conteúdo da Tabela -->
+			<tbody>
+				<tr>
+					<!-- td - table data (dados da tabela)-->
+					<td>02/09/2017</td>
+					<td>Apresentação do conteúdo e primeira página</td>
+					<td>
+						<input type="radio" name="presenca1" value="SIM"/> SIM
+						<input type="radio" name="presenca1" value="NÃO"/> NÃO
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<div id="links">
+			<p>
+				<!-- <a> - ancora; href - referencia(para onde vai) -->
+				<a href="HelloWorld.html">Aula 01 - Hello World!</a>
+				<!-- target="_blank" - abrir link em outra aba -->
+				<a href="HelloWorld.html" target="_blank">Aula 01 - Hello World!(Outra aba)</a>
+				<a href="https://www.w3schools.com/"> O maior site de desenvolvedores web do mundo
+			</p>
+		</div>
+		
+		
+	</div>	
+</body>
+
+</html>

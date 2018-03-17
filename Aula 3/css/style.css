@@ -1,0 +1,81 @@
+/*remover estilos do navegador, como margens e espaçamento entre linhas*/
+body, div, h1, h2, h3, h4, h5, h6, p, ul, img{
+	margin : 0px;
+	padding : 0px;
+}
+
+body{
+	font-family : Arial, Helvetica, sans-serif;
+	background-color : white;
+
+}
+
+#menu{
+    text-align: center;
+	background-color : gray;
+}
+
+#menu ul li{
+	list-style: none;	/*sem estilo de lista(remover as bolinhas)*/
+	display : inline;	/*itens na horizontal*/
+	font-size : 30px;	
+	color: black;
+	padding-left: 50px;	/*espaço interno esquerda*/
+	padding-right: 50px;/*espaço interno direita*/
+	text-align: center;
+}
+
+#conteudo {
+	width: 70%;
+	float: left;
+}
+
+#conteudo p {
+		text-align: justify;
+}
+/* container é uma classe pq tem o ponto antes da palavra*/
+.container{
+	width : 80%;
+	padding-top : 20px;
+	padding-bottom : 20px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+#conteudo h2, h3, h4, h5 {
+	padding-top: 10px;
+}	
+
+#barraLateral {
+	width: 25%;
+	float: right;
+	background-color: gray;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+#barraLateral ul li {
+	list-style: none;
+	padding-bottom: 0px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+#barraLateral li{
+	color: black;
+}
+
+#barraLateral h3 {
+	padding: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+footer {
+	background-color: black;
+	padding: 10px;
+}
+
+footer {
+	color: gray;
+}
