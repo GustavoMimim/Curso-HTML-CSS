@@ -1,0 +1,2 @@
+# HTML/CSS
+Repositório criado com a finalidade de demonstrar os projetos desenvolvidos no curso 'Desmistificando website: o que é, como funciona e como se cria', na Fatec Ourinhos. Mais informações em https://www.fatecourinhos.edu.br/curso-napti-desmistificando-website/
